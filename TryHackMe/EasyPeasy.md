@@ -87,7 +87,7 @@ We moved to enumerate the Apache WebServer http://IP:65524/ and it gives a basic
 
 Looking at this message it comes to mind, that the hash must be baseSomething. Let's jump into CyberChef and check our claim.
 <br>
-The encoding turns out to be `base62` which gives - `/xxxxxxxxxxxxxxx`. This looks like some kind of directory <- We will look this later.
+The encoding turns out to be `base64` which gives - `/xxxxxxxxxxxxxxx`. This looks like some kind of directory <- We will look this later.
 <br>
 <br>
 Further go through the source code, it contains lots of juicy information - a flag.
